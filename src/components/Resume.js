@@ -11,6 +11,7 @@ const Resume = () => {
           <div className='marker'></div>
           <div className='timeline-content'>
             <h4>Front-end</h4>
+            {/* TODO: turn lists into reusable components */}
             <ul>
               <li>HTML</li>
               <li>CSS</li>
