@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto Condensed' san-serif;
+  font-family: 'Roboto Condensed', san-serif !important;
 }
 
 /* --- NAVBAR  ---  */
@@ -36,12 +36,12 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li a:focus {
-  /* border-top: 0.1875rem solid var(--primary-orange) !important; */
+  border-top: 0.1875rem solid var(--primary-orange) !important;
   color: var(--primary-orange) !important;
 }
 
 .navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange) !important;
+  color: var(--primary-orange) !important;
 }
 
 /* HEADER */
@@ -52,4 +52,47 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+/* Typed Text */
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* ABOUT */
+
+.crest {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.content-header {
+  color: var(--primary-orange)
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
