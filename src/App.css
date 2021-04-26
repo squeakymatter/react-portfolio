@@ -113,6 +113,7 @@ nav ul li {
 
 .resume-wrapper {
   position: relative;
+  margin: 5rem ;
   padding: 3.125rem 0;
   overflow: hidden;
 }
@@ -127,6 +128,24 @@ nav ul li {
   height: 100%;
   background: var(--primary-light-teal);
   z-index: 1;
+}
+
+.resume-btn {
+  border: 1px solid var(--primary-teal);
+  text-transform: uppercase;
+  position: absolute;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem .75rem 0.75rem;
+  color: var(--primary-light-teal);
+  margin: 4rem;
+  background: transparent;
+}
+
+.resume-btn:hover{
+  text-decoration: none;
+  background-color: var(--primary-light-teal);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
 }
 
 .timeline-block {
@@ -272,12 +291,12 @@ ul {
 }
 
 .contact-btn {
+  position: relative;
   border: 1px solid var(--primary-teal);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-light-teal);
-  margin: 2rem;
   background: transparent;
 }
 
