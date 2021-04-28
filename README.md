@@ -2,6 +2,9 @@
 
 This app is deployed at: https://squeakymatter.github.io/react-portfolio/
 
+## Mockup
+![Mockup](mockup.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
