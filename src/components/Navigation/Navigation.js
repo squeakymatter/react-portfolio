@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className='navbar navbar-expand-lg navbar-light bg-dark fixed-top'>
       <div className='container'>
-        <NavLink exact to='/'
+        <NavLink to='/home'
           className='navbar-brand'
           id="home"
         >
