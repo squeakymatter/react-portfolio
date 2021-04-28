@@ -3,7 +3,7 @@ import resume from '../assets/pdf/resume.pdf';
 
 const Resume = () => {
   return (
-    <div className='resume'>
+    <div className='resume' id="resume">
       <div className='d-flex justify-content-center my-5'>
       <h1 className='content-header'>Resume</h1>
         <a className='resume-btn' href={resume} download>
