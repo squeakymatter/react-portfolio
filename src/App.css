@@ -13,6 +13,7 @@ body {
   font-family: 'Roboto Condensed', san-serif !important;
 }
 
+
 /* --- NAVBAR  ---  */
 /* navbar links */
 
@@ -281,7 +282,8 @@ ul {
 }
 
 .contact input:focus,
-.contact textarea:focus {
+.contact textarea:focus
+{
   background: transparent;
   outline: none;
   color: var(--primary-orange);
