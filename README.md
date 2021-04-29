@@ -1,6 +1,7 @@
 # React Portfolio
 
-This app is deployed at: https://squeakymatter.github.io/react-portfolio/
+- Deployed at: https://squeakymatter.github.io/react-portfolio/
+- Built with React and EmailJS integration to handle messages submitted via the Contact form
 
 ## Mockup
 ![Mockup](mockup.png)
